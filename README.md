@@ -1,17 +1,16 @@
-# AI-FR
-artificial intelligence attendance system
+# Facial Recognition Attendance System Report
 
-Facial Recognition Attendance System Report
-Introduction:
+## Introduction:
 The Facial Recognition Attendance System is a cutting-edge solution that harnesses computer vision techniques and artificial intelligence (AI) to streamline attendance tracking in educational institutions. This report provides an in-depth analysis of the system's methodology, implementation, and potential benefits.
 
-Methodology:
+## Methodology:
 The core methodology of the Facial Recognition Attendance System involves training a Convolutional Neural Network (CNN) model using TensorFlow and Keras libraries. The model is trained on a dataset comprising images stacked over one another, accompanied by labels indicating whether the images represent the same individual or not.
 
 To detect faces within an image, the system employs OpenCV, a powerful computer vision library. OpenCV provides a range of pre-trained face detection algorithms that accurately locate faces in an image. Once the faces are detected, the system extracts the facial regions, which are then processed further.
 
-Implementation:
-The Facial Recognition Attendance System is designed to mark attendance based on the following steps: a) Image Capture: The system captures images using a CCTV camera, providing a real-time feed of individuals within a designated area.
+## Implementation:
+The Facial Recognition Attendance System is designed to mark attendance based on the following steps:
+a) Image Capture: The system captures images using a CCTV camera, providing a real-time feed of individuals within a designated area.
 
 b) Face Detection: OpenCV's face detection algorithms are applied to the captured images. These algorithms leverage advanced techniques, such as Haar cascades or deep learning-based models, to identify and localize faces accurately.
 
@@ -21,10 +20,11 @@ d) CNN Model Prediction: The cropped facial regions are fed into the trained CNN
 
 e) Attendance Marking: Based on the model's predictions, the system marks the respective students as present or absent. This information can be stored in a database or generated as a report for further use.
 
-Evaluation measures:
-image
+## Evaluation measures:
+![image](https://github.com/Blackpot-07/AI-FR/assets/104737181/25096f79-3865-49b9-9c05-54bf1eb89a67)
 
-Libraries Used:
+
+## Libraries Used:
 The Facial Recognition Attendance System leverages several key libraries to enable its functionalities:
 
 TensorFlow: TensorFlow provides a comprehensive platform for training and implementing deep learning models. In this system, TensorFlow is employed for building and training the CNN model, ensuring high accuracy in face recognition.
@@ -37,7 +37,9 @@ NumPy: NumPy is a fundamental library for numerical computations in Python. It p
 
 Pandas: Pandas is a powerful library for data analysis and manipulation. Although not central to the core functionality of the system, Pandas can be used for organizing and analyzing attendance data if required.
 
-Conclusion:
-The Facial Recognition Attendance System represents a revolutionary approach to attendance tracking, offering numerous benefits to educational institutions. By integrating computer vision techniques, AI, and deep learning models, the system provides accurate and efficient face detection and recognition capabilities. Through the utilization of TensorFlow, Keras, OpenCV, NumPy, and Pandas libraries, the system achieves high performance and reliability. However, it is important to note that the system's effectiveness may be influenced by factors such as lighting conditions, camera quality, and the quality of the training dataset.
+## Conclusion:
+The Facial Recognition Attendance System represents a revolutionary approach to attendance tracking, offering numerous benefits to educational institutions. By integrating computer vision techniques, AI, and deep learning models, the system provides accurate and efficient face detection and recognition capabilities.
+Through the utilization of TensorFlow, Keras, OpenCV, NumPy, and Pandas libraries, the system achieves high performance and reliability. However, it is important to note that the system's effectiveness may be influenced by factors such as lighting conditions, camera quality, and the quality of the training dataset.
 
-To maintain optimal performance, regular updates to the CNN model and system maintenance are recommended. With continuous advancements in computer vision and AI technologies, the Facial Recognition Attendance System )
+To maintain optimal performance, regular updates to the CNN model and system maintenance are recommended. With continuous advancements in computer vision and AI technologies, the Facial Recognition Attendance System
+)
